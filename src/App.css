@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  background: linear-gradient(
+    to right,
+    rgb(15, 32, 39),
+    rgb(32, 58, 67),
+    rgb(44, 83, 100)
+  );
+}
+.icon {
+  font-size: 40px;
+  border-radius: 20%;
+  padding: 5px;
+  background: #142a33;
+}
+.icon:hover {
+  background: rgba(165, 152, 152, 0.116);
+}
+
+.profile {
+  object-fit: cover !important;
+  border-radius: 50%;
+  box-shadow: 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  width: 110px;
+  height: 110px;
+}
+
+.hidden {
+  display: none;
+}
+
+.Center {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fab {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background: linear-gradient(to right, rgb(0, 0, 70), rgb(28, 181, 224));
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2.5px 1.3px 2.2px rgba(0, 0, 0, 0.034),
+    5.6px 3px 5px rgba(0, 0, 0, 0.049), 9.7px 5.2px 8.7px rgba(0, 0, 0, 0.06),
+    15.4px 8.3px 13.8px rgba(0, 0, 0, 0.07),
+    23.8px 12.8px 21.3px rgba(0, 0, 0, 0.08),
+    37.1px 19.9px 33.2px rgba(0, 0, 0, 0.091),
+    61.6px 33px 55.1px rgba(0, 0, 0, 0.106),
+    123px 66px 110px rgba(0, 0, 0, 0.14);
+}
+.fab:hover {
+  background: linear-gradient(to right, rgb(0, 0, 70), rgb(28, 181, 224));
+}
+.text-large {
+  font-size: 25px;
+}
+
+.card {
+  margin-top: 125px;
+}
+.cardImg {
+  object-fit: cover !important;
+  margin-top: -100px;
+  border-radius: 50%;
+}
+
+.Toastify__toast--info {
+  background: #0d0d0d;
+  color: #03c6c7;
+}
+.Toastify__toast--success {
+  background: #0d0d0d;
+  color: #4dd637;
+}
+.Toastify__toast--warning {
+  background: #0d0d0d;
+  color: #e07c24;
+}
+.Toastify__toast--error {
+  background: #0d0d0d;
+  color: #bf3312;
+}
+.Toastify__progress-bar--info {
+  background-color: #03c6c7;
+}
+.Toastify__progress-bar--success {
+  background-color: #4dd637;
+}
+.Toastify__progress-bar--warning {
+  background-color: #e07c24;
+}
+.Toastify__progress-bar--error {
+  background-color: #bf3312;
+}
+
+.home {
+  background: #204554;
+  padding: 20px;
+  padding-left: 40px;
+  border-radius: 10px;
+  box-shadow: 2.5px 1.3px 2.2px rgba(0, 0, 0, 0.034),
+    5.6px 3px 5px rgba(0, 0, 0, 0.049), 9.7px 5.2px 8.7px rgba(0, 0, 0, 0.06),
+    15.4px 8.3px 13.8px rgba(0, 0, 0, 0.07),
+    23.8px 12.8px 21.3px rgba(0, 0, 0, 0.08),
+    37.1px 19.9px 33.2px rgba(0, 0, 0, 0.091),
+    61.6px 33px 55.1px rgba(0, 0, 0, 0.106),
+    123px 66px 110px rgba(0, 0, 0, 0.14);
+}
+
+.btn {
+  /* background: linear-gradient(
+    to right,
+    rgb(101, 78, 163),
+    rgb(234, 175, 200)
+  ) !important; */
+  background: #142a33;
+  color: #ffffff;
+  border-radius: 10px !important;
+  outline: none !important;
+  border: none !important;
+  font-size: 16px !important;
+  margin-top: 5%;
+  padding: 10px;
+  box-shadow: none;
+  font-weight: 400;
+}
+
+.btn:hover {
+  box-shadow: none;
+  color: #ffffff !important;
+  border: none !important;
+  border-color: none !important;
+  background: #142a33;
+}
+.btn:active {
+  box-shadow: none;
+  color: #ffffff !important;
+  border: none !important;
+  border-color: none !important;
+  background: #142a33;
+}
+.btn:focus {
+  box-shadow: none;
+  color: #ffffff !important;
+  border: none !important;
+  border-color: none !important;
+  background: #142a33;
+}
