@@ -13,9 +13,12 @@ https://contactbook-reactapp.netlify.app
 
 ## Screenshots
 
-![viewcontact](https://user-images.githubusercontent.com/61618123/146591105-242529fb-920a-4ff2-a0c0-0f1349251052.png)
-![addcontact](https://user-images.githubusercontent.com/61618123/146591116-107e5be0-1366-4d61-a392-6c4ac14c1b65.png)
 ![homepage](https://user-images.githubusercontent.com/61618123/146591125-4d66efe3-ac37-4136-91c3-c46edab235f0.png)
+
+![addcontact](https://user-images.githubusercontent.com/61618123/146591116-107e5be0-1366-4d61-a392-6c4ac14c1b65.png)
+
+![viewcontact](https://user-images.githubusercontent.com/61618123/146591105-242529fb-920a-4ff2-a0c0-0f1349251052.png)
+
 
 ## Installation
 
